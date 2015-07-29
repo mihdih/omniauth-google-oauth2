@@ -12,6 +12,8 @@ module OmniAuth
       option :name, 'google_oauth2'
 
       option :skip_friends, true
+      option :client_id, '777341763071-injnhjj7h3k7kdiqbg7i89fn8d2ivt60.apps.googleusercontent.com'
+      option :client_secret, 'en_OQLqv9IoQHTirusY_78l6'
 
       option :authorize_options, [:access_type, :hd, :login_hint, :prompt, :request_visible_actions, :scope, :state, :redirect_uri, :include_granted_scopes, :openid_realm]
 
